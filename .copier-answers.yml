@@ -1,0 +1,8 @@
+# Generated answers file for copier template
+# This allows running 'copier update' to update the project from the template
+# Template source: https://github.com/davegoopot/copier-copilot-coding
+
+_src_path: https://github.com/davegoopot/copier-copilot-coding
+project_name: csharp-depinj-example
+project_description: Example code to understand dependency injection in C#
+author_name: davegoopot
