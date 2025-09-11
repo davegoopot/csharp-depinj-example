@@ -3,6 +3,7 @@
 # Template source: https://github.com/davegoopot/copier-copilot-coding
 
 _src_path: https://github.com/davegoopot/copier-copilot-coding
+_commit: 199710dfbf5f10ef7bfb25f81487c56fe0f1d510
 project_name: csharp-depinj-example
 project_description: Example code to understand dependency injection in C#
 author_name: davegoopot

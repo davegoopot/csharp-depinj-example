@@ -31,3 +31,4 @@ When helping with this project:
 4. Follow established patterns in the codebase
 5. Consider security best practices
 6. Ask for clarification when requirements are unclear
+7. If there is a README file update it on changes, but tailor the updates assuming the reader is highly technical. Do not explain basic concepts. Prefer links for further background reading.
