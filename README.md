@@ -24,3 +24,10 @@ dotnet test
 - Test-driven development implementation of a simple string reversal utility
 - Tests created first following TDD principles, implementation pending
 
+## TODO: Additional Test Cases
+- Test for empty string handling (`""` → `""`)
+- Test for single character strings (`"a"` → `"a"`)
+- Test for strings with spaces (`"hello world"` → `"dlrow olleh"`)
+- Test for strings with special characters
+- Test for null input handling
+

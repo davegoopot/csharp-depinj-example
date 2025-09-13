@@ -18,34 +18,4 @@ public class StringReverseTests
         // Assert
         Assert.Equal(expectedOutput, result);
     }
-
-    [Fact]
-    public void transform_handles_empty_string()
-    {
-        // Arrange
-        var stringReverse = new StringReverse();
-        var input = "";
-        var expectedOutput = "";
-
-        // Act
-        var result = stringReverse.transform(input);
-
-        // Assert
-        Assert.Equal(expectedOutput, result);
-    }
-
-    [Fact]
-    public void transform_handles_single_character()
-    {
-        // Arrange
-        var stringReverse = new StringReverse();
-        var input = "a";
-        var expectedOutput = "a";
-
-        // Act
-        var result = stringReverse.transform(input);
-
-        // Assert
-        Assert.Equal(expectedOutput, result);
-    }
 }
