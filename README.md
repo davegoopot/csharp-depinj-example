@@ -6,6 +6,7 @@ See: https://davepotts.software/development/2025/08/20/csharp-dependency-injecti
 ## Project Structure
 
 - `src/DepInj.Example.Core/` - Main class library containing core business logic
+- `src/DepInj.Example.Console/` - Console application demonstrating dependency injection usage
 - `tests/DepInj.Example.Tests/` - xUnit test project
 
 ## Building and Testing
@@ -16,6 +17,10 @@ dotnet build
 
 # Run tests
 dotnet test
+
+# Run the console application
+cd src/DepInj.Example.Console
+dotnet run
 ```
 
 ## Continuous Integration
@@ -38,6 +43,12 @@ See [`.github/workflows/ci.yml`](.github/workflows/ci.yml) for the complete work
 - `ITextTransformer` interface defining a contract for text transformation operations
 - `StringReverse` class implementing `ITextTransformer` for string reversal functionality
 - Test-driven development implementation with comprehensive test coverage
+
+### Console Application with Dependency Injection
+- Console application demonstrating Microsoft.Extensions.DependencyInjection usage
+- Configured DI container registering `StringReverse` as implementation for `ITextTransformer`
+- Interactive console interface accepting user input for text transformation
+- Real-world example of injecting dependencies in a .NET application
 
 
 
