@@ -20,9 +20,10 @@ dotnet test
 
 ## Current Features
 
-### StringReverse Class (TDD Implementation)
-- Test-driven development implementation of a simple string reversal utility
-- Tests created first following TDD principles, implementation pending
+### Text Transformation (TDD Implementation)
+- `ITextTransformer` interface defining a contract for text transformation operations
+- `StringReverse` class implementing `ITextTransformer` for string reversal functionality
+- Test-driven development implementation with comprehensive test coverage
 
 
 
