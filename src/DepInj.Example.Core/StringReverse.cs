@@ -1,6 +1,6 @@
 namespace DepInj.Example.Core;
 
-public class StringReverse
+public class StringReverse : ITextTransformer
 {
     public string? transform(string? input)
     {
