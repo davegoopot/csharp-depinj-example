@@ -37,6 +37,7 @@ See [`.github/workflows/ci.yml`](.github/workflows/ci.yml) for the complete work
 ### Text Transformation (TDD Implementation)
 - `ITextTransformer` interface defining a contract for text transformation operations
 - `StringReverse` class implementing `ITextTransformer` for string reversal functionality
+- `StringCapitalise` class implementing `ITextTransformer` for string capitalization functionality
 - Test-driven development implementation with comprehensive test coverage
 
 

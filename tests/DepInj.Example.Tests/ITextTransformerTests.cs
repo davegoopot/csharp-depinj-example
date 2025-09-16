@@ -18,4 +18,19 @@ public class ITextTransformerTests
         // Assert
         Assert.Equal(expectedOutput, result);
     }
+
+    [Fact]
+    public void string_capitalise_implements_itexttransformer_interface()
+    {
+        // Arrange
+        ITextTransformer transformer = new StringCapitalise();
+        var input = "hello world";
+        var expectedOutput = "HELLO WORLD";
+
+        // Act
+        var result = transformer.transform(input);
+
+        // Assert
+        Assert.Equal(expectedOutput, result);
+    }
 }
